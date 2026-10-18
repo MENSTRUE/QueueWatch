@@ -1,0 +1,8 @@
+{
+  "labeled_images": 100,
+  "test_images": 216,
+  "count_min": 15,
+  "count_max": 539,
+  "count_mean": 126.36,
+  "count_median": 89.5
+}

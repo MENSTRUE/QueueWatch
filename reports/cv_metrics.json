@@ -1,0 +1,7 @@
+{
+  "oof_mae": 41.80534362792969,
+  "oof_rmse": 65.5135139327185,
+  "naive_fold_median_mae": 74.26000213623047,
+  "naive_fold_median_rmse": 111.62419075154588,
+  "mae_improvement_vs_baseline": 32.45465850830078
+}
