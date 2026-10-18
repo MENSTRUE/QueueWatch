@@ -1,0 +1,19 @@
+{
+  "project": "9% \u2014 QueueWatch",
+  "version": "v5.1 pretrained 5-fold count regression",
+  "labeled_images": 100,
+  "test_images": 216,
+  "all_labeled_images_used_across_cv": true,
+  "model": "MobileNetV3-Small",
+  "target": "log1p(crowd_count)",
+  "image_size": 320,
+  "imagenet_pretrained_loaded_all_folds": true,
+  "oof_mae": 41.80534362792969,
+  "oof_rmse": 65.5135139327185,
+  "naive_fold_median_mae": 74.26000213623047,
+  "naive_fold_median_rmse": 111.62419075154588,
+  "mae_improvement_vs_naive": 32.45465850830078,
+  "test_prediction": "median ensemble of 5 fold models",
+  "scope_note": "General crowd counting dataset, not queue-specific.",
+  "evaluation_note": "OOF predictions are generated only from models that did not train on their corresponding validation image."
+}
